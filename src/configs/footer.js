@@ -1,0 +1,60 @@
+export const store = [
+    {
+        title:'Mã số thuế: 01M8017618'
+    },
+    {
+        title:'Điện thoại: 0904636356.'
+    },
+    {
+        title:'Email: cskh@torano.vn'
+    },
+    {
+        title:'Địa chỉ: số 1165 Giải Phóng, phường Thịnh Liệt, quận Hoàng Mai, Thành phố Hà Nội.'
+    },
+]
+
+export const support = [
+    {
+        title:'Hướng dẫn chọn size',
+        path:'huong-dan-chon-size'
+    },
+    {
+        title:'Chính sách khách hàng thân thiết',
+        path:'chinh-sach-khach-hang'
+    },
+    {
+        title:'Chính sách đổi hàng',
+        path:'chinh-sach-doi-hang'
+    },
+    {
+        title:'Chính sách bảo mật',
+        path:'chinh-sach-ao-mat'
+    },
+    {
+        title:'Thanh toán, Giao nhận',
+        path:'thanh-toan-nhan-hang'
+    },
+    {
+        title:'Câu hỏi thường gặp',
+        path:'cau-hoi-thuong-gap'
+    },
+]
+
+export const about = [
+    {
+        title:'Giới thiệu',
+        path:'gioi-thieu'
+    },
+    {
+        title:'Liên hệ',
+        path:'lien-he'
+    },
+    {
+        title:'Tìm đại lí',
+        path:'tim-dai-li'
+    },
+    {
+        title:'Tuyển dụng',
+        path:'tuyen-dung'
+    },
+]
