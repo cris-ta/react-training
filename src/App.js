@@ -1,13 +1,14 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { about, navBars, store, support } from "./configs";
+import { navBars } from "./configs";
+import HomePage from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <Header data={navBars} />
-      <main className="main">Content</main>
-      <Footer store={store} support={support} about = {about}/>
+      <main><HomePage/></main>
+      <Footer data={navBars} />
     </div>
   );
 }

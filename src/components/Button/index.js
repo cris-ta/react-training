@@ -5,7 +5,7 @@ function Button(props) {
   const { handleOnClick, text, type } = props;
   return (
     <button
-      className={type === "primary" ? "btn-green" : "btn-default"}
+      className={type === "primary" ? "btn-green" : "btn-red"}
       onClick={handleOnClick}
     >
       {text}

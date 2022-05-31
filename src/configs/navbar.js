@@ -1,6 +1,6 @@
 export const navBars = [
   {
-    title: "Sale",
+    title: "sale",
     path: "/sale",
   },
   {
@@ -14,17 +14,5 @@ export const navBars = [
   {
     title: "Quần Short",
     path: "/quan-short",
-  },
-  {
-    title: "Sơ mi ngắn tay",
-    path: "/so-mi-ngan-tay",
-  },
-  {
-    title: "Collection",
-    path: "/collection",
-  },
-  {
-    title: "Phụ kiện",
-    path: "/phu-kien",
   },
 ];
