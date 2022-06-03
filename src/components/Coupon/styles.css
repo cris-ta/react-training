@@ -1,0 +1,31 @@
+.coupon__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--bg-coupon);
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.label {
+    position: absolute;
+    display: block;
+    background-color: var(--bg-yellow);
+    padding: .6rem 1.4rem;
+    top: 1rem;
+    left: 0;
+}
+
+.coupon__default {
+    position: absolute;
+    display: block;
+    background-color: var(--bg-coupon);
+    padding: .6rem 1.4rem;
+    top: 2rem;
+    left: 0;
+}

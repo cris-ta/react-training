@@ -1,18 +1,30 @@
 export const navBars = [
   {
-    title: "sale",
+    title: "Sale",
     path: "/sale",
   },
   {
-    title: "Áo Polo",
+    title: "ÁO POLO",
     path: "/ao-polo",
   },
   {
-    title: "Áo Thun",
+    title: "ÁO THUN",
     path: "/ao-thun",
   },
   {
-    title: "Quần Short",
+    title: "QUẦN SHORT",
     path: "/quan-short",
+  },
+  {
+    title: "SƠ MI NGẮN TAY",
+    path: "/so-mi-tay-ngan",
+  },
+  {
+    title: "SẢN PHẨM",
+    path: "/san-pham",
+  },
+  {
+    title: "collection",
+    path: "/collection",
   },
 ];

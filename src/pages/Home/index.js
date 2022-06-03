@@ -1,17 +1,21 @@
-import React from 'react'
-import Button from '../../components/Button'
+import Product from "../../components/Product"
+import Title from "../../components/Title"
+import "./styles.css"
 
-function HomePage() {
-    function showMessages() {
-        window.alert('Mesage');
-    }
-  return (
-    <div>
-        <h1>HomePage</h1>
-        <Button handleOnClick={showMessages} text="Primary" type={'primary'} />
-        <Button handleOnClick={showMessages} text="Danger" type={'danger'} />
-    </div>
-  )
+function HomePage(props) {
+    return (
+        <div className='wrapper'>
+            <article className="sale__box">
+                <Title title="Flash Sale"/>
+                <div className="products">
+                    <Product name="Áo Polo Coolmax" price__old="230.000vnđ" price__current="230.000vnđ"/>
+                    <Product name="Áo Polo Coolmax" price__old="230.000vnđ" price__current="230.000vnđ"/>
+                    <Product name="Áo Polo Coolmax" price__old="230.000vnđ" price__current="230.000vnđ"/>
+                    <Product name="Áo Polo Coolmax" price__old="230.000vnđ" price__current="230.000vnđ"/>
+                </div>
+            </article>
+        </div>
+    )
 }
 
 export default HomePage

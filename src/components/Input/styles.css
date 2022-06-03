@@ -1,0 +1,10 @@
+.form__label {
+    display: block;
+    margin: 1rem 0;
+}
+
+.form__input {
+    width: 100%;
+    padding: .5rem 1rem;
+    outline: none;
+}
