@@ -27,4 +27,9 @@ export const navBars = [
     title: "collection",
     path: "/collection",
   },
+<<<<<<< HEAD
 ];
+=======
+];
+
+>>>>>>> main
