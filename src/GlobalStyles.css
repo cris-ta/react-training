@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+:root {
+    --height-header:6rem;
+    --text-color:#333;
+    --background-color: #595b5c;
+}
