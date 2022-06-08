@@ -18,4 +18,8 @@ export default function Register() {
         </div>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
