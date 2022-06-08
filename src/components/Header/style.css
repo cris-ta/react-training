@@ -38,12 +38,8 @@
 
 .search button{
   position: absolute;
-  padding: .2rem .5rem;
   right: .3rem;
   top: 50%;
   transform: translateY(-50%);
-  border: none;
-  cursor: pointer;
-  background-color: #000;
   color: #fff;
 }

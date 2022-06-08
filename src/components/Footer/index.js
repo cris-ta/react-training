@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-function Footer({ info, support, contact }) {
+export default function Footer({ info, support, contact }) {
   return (
     <footer className="footer">
       <div className="info">
@@ -34,7 +33,7 @@ function Footer({ info, support, contact }) {
       <div className="contact">
       <span className="footer__title">Về chúng tôi</span>
         <ul className="contact__list">
-          {support.map((item, index) => {
+          {contact.map((item, index) => {
             return (
               <li>
                 <Link className="footer-item" to={item.path} key={index}>
@@ -48,5 +47,3 @@ function Footer({ info, support, contact }) {
     </footer>
   );
 }
-
-export default Footer;
