@@ -1,4 +1,3 @@
-import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomePage from "./pages/Home";
@@ -11,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Header data={navBars} />
-      <Banner data={''}/>
       <main id="main">
         <Routes>
           <Route path="/" element={<HomePage/>}/>
