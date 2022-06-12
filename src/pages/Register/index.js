@@ -13,7 +13,6 @@ export default function Register() {
             <Input name__label="Email:" type="email" placeholder="Your email"/>
             <Input name__label="Phone" type="text" placeholder="Your phone number"/>
             <Input name__label="Password:" type="password" placeholder="Your password"/>
-
             <Button text="Register"/>
         </div>
     </div>
