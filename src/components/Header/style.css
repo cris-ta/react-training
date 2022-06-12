@@ -38,12 +38,41 @@
 
 .search button{
   position: absolute;
+  right: .3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.nav a{
+  padding: .5rem 1rem;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.search {
+  display: flex;
+  position: relative;
+}
+
+.search input{
+  outline: none;
+}
+
+.search button{
+  position: absolute;
   padding: .2rem .5rem;
   right: .3rem;
   top: 50%;
   transform: translateY(-50%);
-  border: none;
-  cursor: pointer;
-  background-color: #000;
   color: #fff;
 }

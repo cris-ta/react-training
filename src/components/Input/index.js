@@ -1,23 +1,37 @@
-import "./styles.css"
-import React from 'react'
+import "./styles.css";
+import React from "react";
 
 function Input(props) {
-    return (
-        <div>
-            <label className="form__label">{props.name}</label>
-            <input className="form__input" type={props.type} placeholder={props.placeholder}/>
-        </div>
-    )
+  return (
+    <div>
+      <label className="form__label">
+        {props.label__name}
+        <input
+          id={props.name}
+          name={props.name}
+          className="form__input"
+          type={props.type}
+          placeholder={props.placeholder}
+        />
+      </label>
+    </div>
+  );
 }
 
-function textArea(props) {
-    return (
-        <div>
-            <label className="form__label">{props.name}</label>
-            <textarea className="form__input" placeholder={props.placeholder}></textarea>
-        </div>
-    )
+function TextArea(props) {
+  return (
+    <div>
+      <label className="form__label">
+        {props.label__name}
+        <textarea
+          id={props.name}
+          name={props.name}
+          className="form__input"
+          placeholder={props.placeholder}
+        ></textarea>
+      </label>
+    </div>
+  );
 }
 
-
-export {Input, textArea}
+export { Input, TextArea };

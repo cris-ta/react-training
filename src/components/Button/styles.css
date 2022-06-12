@@ -1,0 +1,17 @@
+.btn-brown {
+    background-color: #8f111d;
+    min-width: 2rem;
+    padding: .4rem 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #ed4d2b;
+    min-width: 2rem;
+    padding: .4rem 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}

@@ -1,19 +1,15 @@
 export const info = [
     {
         title:"Mã số thuế: 01M8017618",
-        path: ""
     },
     {
         title:"Điện thoại: 0904636356.",
-        path: ""
     },
     {
         title:"Email: cskh@torano.vn",
-        path: ""
     },
     {
         title:"Địa chỉ: số 1165 Giải Phóng, phường Thịnh Liệt, quận Hoàng Mai, Thành phố Hà Nội.",
-        path: ""
     }
 ]
 

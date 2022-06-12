@@ -28,4 +28,3 @@ export const navBars = [
     path: "/collection",
   },
 ];
-

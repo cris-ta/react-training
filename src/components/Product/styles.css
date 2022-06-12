@@ -1,0 +1,41 @@
+.wrapper__product {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: .3rem;
+}
+
+.wrapper__product img {
+    width: 100%;
+    border-radius: .3rem;
+    object-fit: contain;
+    height: 30rem;
+}
+
+.product__name {
+    display: block;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.product__price {
+    align-items: center;
+    display: flex;
+    justify-content: space-between ;
+    padding: 1rem 3rem;
+}
+
+.price__old {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.price__current {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.wrapper__product > button {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: .3rem;
+}
