@@ -24,13 +24,13 @@ function CheckoutBills(props) {
             <ProductCart/>
             <div className="coupon">
                 <Input/>
-                <Button type="orange" text="Use Coupon"/>
+                <Button type="orange" text="Sử dụng"/>
             </div>
             <div>
-                <SubTitle subtitle="Phi van chuyen"/>
+                <SubTitle subtitle="Phí vận chuyển"/>
             </div>
             <div className="total">
-                <SubTitle subtitle="Total Price"/>
+                <SubTitle subtitle="Tổng đơn hàng"/>
                 {props.price}
             </div>
         </div>

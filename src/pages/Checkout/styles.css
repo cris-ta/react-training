@@ -1,0 +1,5 @@
+.wrapper__check {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0 15rem;
+}
