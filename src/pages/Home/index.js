@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import Product from "../../components/Product"
-import Title from "../../components/Title"
+import {Product} from "../../components/Product"
+import { Heading2 } from "../../components/Title"
 import "./styles.css"
 
 function HomePage(props) {
@@ -17,7 +17,7 @@ function HomePage(props) {
     return (
         <div className='wrapper'>
             <article className="sale__box">
-                <Title title="Flash Sale"/>
+                <Heading2 heading2="Flash Sale"/>
                 <div className="products">
                     {
                     products.length > 0  &&
