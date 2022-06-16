@@ -1,0 +1,9 @@
+.wrapper__collection {
+    padding: 3rem 0;
+}
+
+.wrapper__collection h4{
+    text-align: center;
+    font-weight: 200;
+    color: #666;
+}

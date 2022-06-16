@@ -3,7 +3,7 @@
 }
 .bills__detail {
     background-color: var(--bg-primary);
-    padding: 0 2rem;
+    padding: 0 4rem;
     border-left: solid .1rem var(--background-color);
 }
 .coupon {
