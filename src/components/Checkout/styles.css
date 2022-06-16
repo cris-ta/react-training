@@ -1,0 +1,12 @@
+.check__info {
+    padding: 0 5rem;
+}
+.bills__detail {
+    background-color: var(--bg-primary);
+    padding: 0 2rem;
+    border-left: solid .1rem var(--background-color);
+}
+.coupon {
+    display: flex;
+    justify-content: space-between;
+}
